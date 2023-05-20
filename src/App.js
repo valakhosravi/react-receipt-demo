@@ -25,7 +25,7 @@ const App = () => {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">Material-UI Page</Typography>
+          <Typography variant="h6">React Receipt Demo</Typography>
         </Toolbar>
       </AppBar>
       <Container maxWidth="sm" sx={{ marginTop: '2rem' }}>
