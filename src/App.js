@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Container, TextField, Button } from '@mui/material';
+import invoicePrint from './utils/receipt';
 
 const App = () => {
   const [jsonText, setJsonText] = useState('');
@@ -19,6 +20,7 @@ const App = () => {
 
   const handleDownloadReceipt = () => {
     // TODO
+    invoicePrint();
   }
 
   return (
